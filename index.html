@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body  >
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./images/logo-dark.webp" class="img-fluid img1 ps-5" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ps-5" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-5">
+          <li class="nav-item dropdown pe-4 ps-5">
+            <a class="nav-link dropdown-toggle ps-5 text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              HOME
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown pe-4">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              IT SOLUTION
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown pe-4">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              COMPANY
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown pe-4">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              ELEMENTS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown pe-4">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              CASE STUDIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown pe-4">
+            <a class="nav-link dropdown-toggle text-dark " href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              BLOG
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero -->
+
+  <div class="back">
+    <div class="hero text-center">
+      <h2>Responsive Design</h2>
+      <h1 class="head py-3">for IT Services</h1>
+      <div class="btn-group">
+        <button type="button" class="btn btn-light dropdown-toggle px-5" data-bs-toggle="dropdown"
+          data-bs-display="static" aria-expanded="false">
+          How can we help you?
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-end">
+          <li><button class="dropdown-item" type="button">Action</button></li>
+          <li><button class="dropdown-item" type="button">Another action</button></li>
+          <li><button class="dropdown-item" type="button">Something else here</button></li>
+        </ul>
+      </div>
+      <p class="p-3">Highly Tailored IT Design, Management & Support Services.</p>
+    </div>
+  </div>
+
+  <!-- caurosol -->
+  <div class="container p-5">
+    <div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card2">
+                <img src="./images/c1.webp" class="img-fluid pb-5" alt="">
+                <a href="" class="link1">
+                  <h4>Firewall Advancement</h4>
+                </a>
+                <a href="">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iure necessitatibus ipsum
+                    architecto alias odio </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card2">
+                <div class="card2">
+                  <img src="./images/c2.webp" class="img-fluid pb-5" alt="">
+                  <a href="" class="link1">
+                    <h4>Firewall Advancement</h4>
+                  </a>
+                  <a href="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iure necessitatibus ipsum
+                      architecto alias odio </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card2">
+                <img src="./images/c3.webp" class="img-fluid pb-5" alt="">
+                <a href="" class="link1">
+                  <h4>Firewall Advancement</h4>
+                </a>
+                <a href="">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iure necessitatibus ipsum
+                    architecto alias odio </p>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card2">
+                <img src="./images/c4.webp" class="img-fluid pb-5" alt="">
+                <a href="" class="link1">
+                  <h4>Firewall Advancement</h4>
+                </a>
+                <a href="">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iure necessitatibus ipsum
+                    architecto alias odio </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card2">
+                <div class="card2">
+                  <img src="./images/c5.webp" class="img-fluid pb-5" alt="">
+                  <a href="" class="link1">
+                    <h4>Firewall Advancement</h4>
+                  </a>
+                  <a href="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iure necessitatibus ipsum
+                      architecto alias odio</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card2">
+                <img src="./images/c3.webp" class="img-fluid pb-5" alt="">
+                <a href="" class="link1">
+                  <h4>Firewall Advancement</h4>
+                </a>
+                <a href="">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iure necessitatibus ipsum
+                    architecto alias odio !</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- <img src="..." class="d-block w-100" alt="..."> -->
+
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- about us -->
+
+  <div class="about text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ps-3 " data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+          <p>OUR COMPANY</p>
+          <h1 class="fw-bold pb-3">We run all kinds of IT services that vow your <span
+              style="color: rgba(0, 0, 255, 0.812);">38 years</span> success truly prominent.</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis perferendis eum veniam reiciendis ratione
+            vero magni. Ea qui eius autem. distinctio ea quaerat debitis non saepe in voluptas veritatis recusandae
+            perferendis placeat ad ratione obcaecati.</p>
+
+
+          <button type="button" class="btn btn-light  btn1 rounded-pill ">BUY NOW</button>
+
+        </div>
+        <div class="col-md-6"data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <img src="./images/meet-g0a0a22aa6_1920-removebg-preview (1).png" class="img-fluid img2" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="info p-4 "data-aos="fade-down"
+  data-aos-easing="linear"
+  data-aos-duration="1500">
+    <div class="container">
+      <p class="text-center">INDUSTRIES WE SERVE</p>
+      <h1 class="fw-bold text-center">Services We Deliver <br>
+        we provide truly prominent <span style="color: rgba(0, 0, 255, 0.812);">IT solutions.</span> </h1>
+
+      <div class="services p-3 ps-5 ">
+        <div class="row">
+          <div class="col-md-4 pt-4 box"data-aos="zoom-out" data-aos-duration="1500">
+
+            <i class="fa-regular fa-heart fs-1 p-2 text-danger"></i>
+
+            <h4>IT Design</h4>
+            <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+            <a href="" class="text-decoration-none p-1">Discover Now <i class="fa-solid fa-right-long"></i></a>
+          </div>
+
+          <div class="col-md-4 pt-4 box"data-aos="zoom-in" data-aos-duration="1500">
+
+            <i class="fa-regular fa-clock fs-1 p-2 text-success"></i>
+
+            <h4>Data Security</h4>
+            <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+            <a href="" class="text-decoration-none p-1">Discover Now <i class="fa-solid fa-right-long"></i></a>
+          </div>
+
+          <div class="col-md-4 pt-4 box"data-aos="zoom-out" data-aos-duration="1500">
+
+            <i class="fa-solid  fa-book fs-1 p-2 text-warning"></i>
+            <h4>Firewall Advance</h4>
+            <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+            <a href="" class="text-decoration-none p-1">Discover Now <i class="fa-solid fa-right-long"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="services p-3 ps-5 ">
+        <div class="row">
+          <div class="col-md-4 pt-4 box"data-aos="zoom-in" data-aos-duration="1500">
+
+            <i class="fa-solid fa-location-dot fs-1 p-2 text-warning"></i>
+
+            <h4>Business Reform</h4>
+            <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+            <a href="" class="text-decoration-none p-1">Discover Now <i class="fa-solid fa-right-long"></i></a>
+          </div>
+
+          <div class="col-md-4 pt-4 box"data-aos="zoom-out" data-aos-duration="1500">
+
+            <i class="fa-solid fa-list-check fs-1 p-2 text-danger"></i>
+
+            <h4>Infrastructure Plan </h4>
+            <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+            <a href="" class="text-decoration-none p-1">Discover Now <i class="fa-solid fa-right-long"></i></a>
+          </div>
+
+          <div class="col-md-4 pt-4 box"data-aos="zoom-in" data-aos-duration="1500">
+
+            <i class="fa-solid fa-business-time fs-1 p-2 text-success"></i>
+            <h4>IT Management</h4>
+            <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+            <a href="" class="text-decoration-none p-1">Discover Now <i class="fa-solid fa-right-long"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="b1 d-flex justify-content-center p-5">
+      <button type="button" class="btn btn-primary  me-4  btn1   ">TAKE TO A CONSULTANT</button>
+      <button type="button" class="btn btn-outline-primary  btn1 rounded-pill  ">CONTACT US NOW</button>
+    </div>
+  </div>
+ 
+  <div class=" p-3 " style=" background-color: rgba(0, 0, 0, 0.142);">
+    <div class="container">
+
+      <p class="ps-5">HOW WE WORKS</p>
+      <h2 class="fw-bold ps-5">How it helps <br><span class="text-primary ">your
+          business succeed</span>
+      </h2>
+      <div class="d-flex bar1">
+        <h4 class="rounded-pill bar1"><button type="button"
+            class=" px-2 pill ">1</button>-------------------------------</h4>
+        <h4 class="rounded- bar1"><button type="button" class=" px-2 pill ">2</button>----------------------------</h4>
+        <h4 class="rounded-pill bar1"><button type="button" class=" px-2 pill ">3</button>----------------------------
+        </h4>
+        <h4 class="rounded-pill bar1"><button type="button" class=" px-2 pill ">4</button></h4>
+      </div>
+      <div class="row pt-5 pb-5">
+        <div class="col-md-3 shadow bg-light me-4 px-4 py-4 rounded " style="width: 17rem;">
+          <h5>01. Discussion</h5>
+          <p>We meet customers in set place to discuss the details about needs and demands before proposing a plan.</p>
+          <a href="" class="text-decoration-none p-1">Look More <i class="fa-solid fa-right-long"></i></a>
+        </div>
+        <div class="col-md-3 py-4 px-4 shadow me-4 bg-light rounded" style="width: 17rem;">
+          <h5> 02. Concepts & Initatives</h5>
+          <p>We meet customers in set place to discuss the details about needs and demands before proposing a plan.</p>
+          <a href="" class="text-decoration-none p-1">Look More <i class="fa-solid fa-right-long"></i></a>
+        </div>
+        <div class="col-md-3 py-4 px-4 me-4 shadow bg-light rounded" style="width: 17rem;">
+          <h5>03. Testing & Trying</h5>
+          <p>We meet customers in set place to discuss the details about needs and demands before proposing a plan.</p>
+          <a href="" class="text-decoration-none p-1">Look More <i class="fa-solid fa-right-long"></i></a>
+        </div>
+        <div class="col-md-3 py-4 px-4 me-4 shadow bg-light rounded" style="width: 17rem;">
+          <h5>04. Execute & install</h5>
+          <p>We meet customers in set place to discuss the details about needs and demands before proposing a plan.</p>
+          <a href="" class="text-decoration-none p-1">Look More <i class="fa-solid fa-right-long"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-4 "data-aos="fade-down" data-aos-duration="2000">
+    <p class="text-center">CASE STUDIES</p>
+    <h1 class="text-center fw-bold">Proud projects that <span class="text-primary">make us stand out </span> </h1>
+    <div class="row">
+      <div class="col-md-6  space"data-aos="fade-down" data-aos-duration="2000">
+        <h2>We run all kinds of IT services</h2>
+        <p>Cyber Security</p>
+        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis exercitationem culpa voluptate illum
+          sint velit deleniti iusto magnam, earum repellat dicta quae corporis a, minima quam, nulla temporibus debitis
+          facere.</span>
+      </div>
+      <div class="col-md-6 pt-5">
+        <img src="./images/home-services-case-study-slide-image-01.webp" class="img-fluid p-4" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="progress1 p-5 text-center text-light ">
+    <div class="container">
+      <h1 class="fw-bold">Need a hand?</h1>
+      <p>Reach out to the world’s most reliable IT services.</p>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center pt-4"data-aos="fade-down" data-aos-duration="2000">
+          <div class="row g-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder=" Name" aria-label="First name">
+            </div>
+            <div class="col mb-3">
+              <input type="email" class="form-control" placeholder="Email" aria-label="Last name">
+            </div>
+           <div class="col12">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>selcet department to email</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+           </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                placeholder="Please describe what you need"></textarea>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-light px-5 px-2" type="submit">Send Message</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="d-flex justify-content-center p-5">
+    <a href="" class="text-decoration-none text-dark me-4 fw-bold">IT Services @ 2023</a>
+    <div class="foot ">
+    <a href="">Privacy & Legal</a>
+    <a href="">Contact</a>
+    <a href="">Careers</a>
+    <a href="">News</a>
+    <a href="">Engage</a>
+    <a href="">Locations</a>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+  <script>
+    AOS.init();
+  </script>
+ 
+  <script src="./app.js"></script>
+
+</body>
+
+</html>
